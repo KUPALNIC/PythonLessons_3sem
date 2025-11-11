@@ -1,0 +1,5 @@
+Sample01;7;2;6;9
+Sample02;8;4;6;8
+Sample03;4;5;6;6
+Sample04;3;3;3;28
+Sample05;6;5;2;2
