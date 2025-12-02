@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-with open('003.dat', 'r') as file:
+with open('005.dat', 'r') as file:
     n = int(file.readline())
     x=[]
     y=[]
@@ -9,7 +9,6 @@ with open('003.dat', 'r') as file:
         x.append(float(cordinate[0]))
         y.append(float(cordinate[1]))
 
-# plt.figure(x, y, figsize=(10, 10*(max(y)-min(y)/(max(x)-min(x)))))
 plt.scatter(x, y)
 # print(*x, '\n', *y)
 plt.xlim(min(x)-1, max(x)+1)
